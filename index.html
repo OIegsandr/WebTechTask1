@@ -4,59 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="newStyleClass.css">
 </head>
 <body>
-    <form>
+    <div class="solidOrange">
+        <h1>Веб - технологии</h1>
+        <h3>Университет "Дубна"</h3>
+    </div>
+    <form class="wholeBorderStyle">
         <div>
-            <h1>Веб - технологии</h1>
-            <h3>Университет "Дубна"</h3>
-            <h4>Есть вопросы?</h4>
             Как вам удобно получить ответ:<br>
-        </div>
-        <form>
-            <div>
-                <input type="radio" id="emailMes" name="gettingMessages" value="email">
-                <label for="emailMes">По почте</label><br>
-                <input type="radio" id="phoneMes" name="gettingMessages" value="phone">
-                <label for="phoneMes">По телефону</label><br>
-                <input type="radio" id="notanyMes" name="gettingMessages" value="nothing">
-                <label for="notanyMes">Не нужно отвечать</label><br>
-            </div>
-            <div>
-                Укажите тему вопроса<br>
-                <select>
-                    <option>Работа</option>
-                    <option>Учеба</option>
-                    <option>Прочее</option>
-                </select>
-            </div>
-            <div>
-                И еще один вопрос?<br>
-                <input type="checkbox" id="anotherQ1" name="answerQ" value="firstQ">
-                <label for="anotherQ1">может так</label><br>
-                <input type="checkbox" id="anotherQ2" name="answerQ" value="secondQ">
-                <label for="anotherQ2">или не так</label><br>
-                <input type="checkbox" id="anotherQ3" name="answerQ" value="thirdQ">
-                <label for="anotherQ3">инчае</label><br>                             
-            </div>
-            <div>
-                <label for="userName">Ваше имя:</label><br>
-                <input type="text" name="userName"><br>
-                <label for="userEmail">Адрес почты:</label><br>
-                <input type="email" name="userEmail"><br>
-                <label for="userPhone">Номер телефона:</label><br>
-                <input type="text" name="userPhone"><br>
-                <label for="userQuestion">Ваш вопрос:</label>
-                <textarea name="userQuestion" cols="30" rows="5"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Отправить">
-            </div>
-        </form>
+            <input type="radio" id="emailMes" name="gettingMessages" value="email">
+            <label for="emailMes">По почте</label><br>
+            <input type="radio" id="phoneMes" name="gettingMessages" value="phone">
+            <label for="phoneMes">По телефону</label><br>
+            <input type="radio" id="notanyMes" name="gettingMessages" value="nothing">
+            <label for="notanyMes">Не нужно отвечать</label><br>
+        </div><br>
         <div>
-            <img src="Images/Fish.png" height="75" width="90"><br>
-            Сайт разработан OL, Copyright @ 2026<br>
-        </div>
-    </form>
+            Укажите тему вопроса<br>
+            <select class="pickThingStyle">
+                <option>Работа</option>
+                <option>Учеба</option>
+                <option>Прочее</option>
+            </select>
+        </div><br>
+        <div>
+            И еще один вопрос?<br>
+            <input type="checkbox" id="anotherQ1" name="answerQ" value="firstQ">
+            <label for="anotherQ1">может так</label><br>
+            <input type="checkbox" id="anotherQ2" name="answerQ" value="secondQ">
+            <label for="anotherQ2">или не так</label><br>
+            <input type="checkbox" id="anotherQ3" name="answerQ" value="thirdQ">
+            <label for="anotherQ3">иначе</label><br>                             
+        </div><br>
+        <div class="flexInputText">
+            <label for="userName">Ваше имя:</label>
+            <input type="text" name="userName" class="inputFieldStyle"><br>
+            <label for="userEmail">Адрес почты:</label>
+            <input type="email" name="userEmail" class="inputFieldStyle"><br>
+            <label for="userPhone">Номер телефона:</label>
+            <input type="text" name="userPhone" class="inputFieldStyle"><br>
+            <label for="userQuestion">Ваш вопрос:</label><br>
+            <textarea name="userQuestion" cols="30" rows="5"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" value="Отправить" class="inputFieldStyle">
+        </div><br>
+    </form><br>
+    <div class="solidOrange">
+        <img src="Images/Fish.png" height="75" width="90"><br>
+        Сайт разработан OL, Copyright @ 2026<br>
+    </div>
 </body>
 </html>

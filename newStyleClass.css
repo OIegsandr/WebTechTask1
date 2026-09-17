@@ -1,0 +1,31 @@
+.solidOrange{
+    background-color: orange;
+}
+
+.wholeBorderStyle{
+    border-style: solid;
+    border-color: orange;
+    border-radius: 100px;
+    box-shadow: 0px 0px 4px 2px orange;
+    border-image-width: 50px;
+}
+
+.inputFieldStyle{
+    border-style: solid;
+    border-color: rgb(136, 46, 11) orange orange rgb(136, 46, 11);
+    background-color: lightyellow;
+    border-radius: 20px;
+    border-width: 3px;
+}
+
+.pickThingStyle{
+    border-style: solid;
+    border-color: orange;
+    background-color: lightyellow;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.flexInputText{
+    display: flex;
+}
